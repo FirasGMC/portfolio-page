@@ -1,0 +1,65 @@
+<html>
+<head>
+<title> firas-porfolio webpage <!--this is the title of the webpage-->
+</title>
+</head>
+ <body>
+<header>
+<nav>
+<h1><i><b>Welcome to my portfolio <a name="Home"></b></i></h1> 
+<table border="5" width="100%">
+   <tr><!--table-->
+	<td><a href="#Home">Home</a></td>
+        <td><a href="#1.About me">1.About me</a></td>
+        <td><a href="#2.work">2.work</a></td>
+        <td><a href="#3.resume">3.resume</a></td>
+	<td><a href="#4.contact">4.contact</a></td>
+   </tr>
+</table>
+</header>
+<main>
+<nav>
+<section><!--First section-->
+    <h1>1.About me<a name="1.About me"> </a></h1> 
+    <p>Hi! I am Firas, I am 16 years old, Tunisian and I live in Ezzahra.<br> I am a student in the first form of High school.</p>
+    <img src="https://www.oxfordlearning.com/wp-content/uploads/2018/01/AdobeStock_170654250.jpeg" alt="Student"width="320" height="240" ><!--this is an image--> </img>
+</section>
+
+<section><!--second section-->
+    <h1> 2.Work<a name="2.work"></h1>
+    <h5>I did projects and courses</h5>
+<ul type="square"><!--unordered list-->
+	<li>python</li>
+	<li>arduino</li>
+	<li>Power point, and videos editing...</li>
+</ul>
+<iframe width="315" height="420" src="https://youtube.com/shorts/YTID00YQzfI?feature=share">
+</iframe>
+</section>
+
+
+<section><!--third section-->
+    <h1> 3.resume<a name="3.resume"><h1>
+    <h5>GMC projects:</h5><!--links-->
+    <a href="https://1drv.ms/p/s!Apkra5bv2c4bgQQmvqKh6JMxDqoK?e=sMMZfp">Power point project</a> <br>
+    <a href="https://github.com/FirasGMC/learn_git_again/blob/main/commandes.txt">GitHub project</a>
+</section>
+</nav>
+</main>
+<footer><!--footer-->
+    <h1> 4.contact    <a name="4.contact"> </a> </h1>
+
+      <form><!--formulaire-->
+        <label>phone number</label>
+        <input type="number" name="phone number" value="99138273" />
+        <br />
+  
+        <label>e-mail</label>
+        <input type="email" name="e-mail" value="ffiras.2023@gmail.com" />
+        <br />
+        <button type="submit">submit button</button>
+      </form>
+       </ul>
+</footer>
+</body>
+</html>
